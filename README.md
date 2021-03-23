@@ -1,5 +1,6 @@
 # HW2-Responsive-Portfolio-NLT
-The second homework assignment of the bootcamp. This assignment required us to use the Bootstrap CSS Framework to create a mobile responsive portfolio.
+This is my updated portfolio page that includes my first project as well as a few of my previous assignments. As I continue through the program my portfolio will continue to build. 
+
 
 To access the deployed application, go to: <http://nicoletribo.github.io/HW2-Responsive-Portfolio-NLT/>
 
