@@ -4,7 +4,7 @@
 
 This is my updated portfolio page that includes my first and second projects as well as a few of my previous assignments. As I continue through the program my portfolio will continue to build.
 
-To view my portfolio, go to: <http://nicoletribo.github.io/HW2-Responsive-Portfolio-NLT/>
+To view my portfolio, go to: <http://nicoletribo.github.io/Responsive-Portfolio-NLT/>
 
 ## Questions
 
