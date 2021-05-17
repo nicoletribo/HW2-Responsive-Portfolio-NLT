@@ -1,67 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Farro&display=swap" rel="stylesheet">
+
 </head>
-
-<body style="background-color: silver;">
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#" style="color:white;font-weight: bold;border: dotted; border-width: 2px; background-color: teal;">Nicole Tribo</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarNavDropdown" style="background-color: teal;">
-        <ul class="navbar-nav ml-auto">
-
-          <li class="nav-item active">
-            <a class="nav-link" style="color: white; border: solid;" href="index.html">About</a>
-          </li>
-
-          <li class="nav-item" >
-            <a class="nav-link" style="color: white; border: solid;" href="portfolio.html">Portfolio</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" style="color: white; border:solid" href="contact.html">Contact</a>
-          </li>
-        </ul>
+<body>
+    <!-- add navbar here-->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
         </div>
-    </nav>
-<div class="container" style="margin-top:60px;">
-        <div class="row">
-            <div class="col-md-7" style="background-color: white;">
-                <h1 style="color: teal; font-weight: bold;">Contact</h1>
-            <div class="row">
-                <div class="col-md-12">
-                    <form>
-                        <div class="mb-3">
-                            <label for="exampleInputName" class="form-label">Name</label>
-                            <input type="name" class="form-control" id="exampleInputName" placeholder="Name">
-                          </div>
-                        <div class="mb-3">
-                          <label for="exampleInputEmail" class="form-label">Email address</label>
-                          <input type="email" class="form-control" id="exampleInputEmail" placeholder="Email">
-                        </div>
-                        <div class="mb-3">
-                          <label for="exampleInputMessage" class="form-label">Message</label>
-                          <input type="message" class="form-control" id="exampleInputMessage" placeholder="Message">
-                        </div>
-                        <button type="submit" class="btn" style="background-color: teal; color: white; margin-bottom: 10px;">Submit</button>
-                    </form>
-                </div>
-            </div>
-            </div>
-            <div class="col-md-5"></div>
-    
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item" href="index.html">
+              About
+            </a>
+            <a class="navbar-item" href="portfolio.html">
+              Portfolio
+            </a>
+            <a class="navbar-item" href="contact.html">
+              Contact
+            </a>
+          </div>
         </div>
+      </nav>
+      <section id="navbarBasicExample" class="hero is-small">
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <p class="title">
+              Nicole Tribo
+            </p>
+            <p class="subtitle">
+              About Me
+            </p>
+          </div>
+        </div>
+      </section>
+      <form class="box">
+        <div class="field">
+          <label class="label">Name</label>
+          <div class="control">
+            <input class="input" type="name" placeholder="Name">
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Email</label>
+          <div class="control">
+            <input class="input" type="email" placeholder="e.g. alex@example.com">
+          </div>
+        </div>
+      
+        <div class="field">
+          <label class="label">Message</label>
+          <div class="control">
+            <input class="input" type="message" placeholder="Message">
+          </div>
+        </div>
+      
+        <button class="button">Submit</button>
+      </form>
        
-</div>
-   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
