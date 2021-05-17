@@ -1,11 +1,21 @@
 # HW2-Responsive-Portfolio-NLT
-This is my updated portfolio page that includes my first project as well as a few of my previous assignments. As I continue through the program my portfolio will continue to build. 
 
+## Description
 
-To access the deployed application, go to: <http://nicoletribo.github.io/HW2-Responsive-Portfolio-NLT/>
+This is my updated portfolio page that includes my first and second projects as well as a few of my previous assignments. As I continue through the program my portfolio will continue to build.
 
-<img width="411" alt="Screen Shot 2021-03-22 at 8 34 31 PM" src="https://user-images.githubusercontent.com/76696641/112079515-4a963500-8b4e-11eb-8919-b686aa73566e.png">
+To view my portfolio, go to: <http://nicoletribo.github.io/HW2-Responsive-Portfolio-NLT/>
 
-<img width="414" alt="Screen Shot 2021-03-22 at 8 35 09 PM" src="https://user-images.githubusercontent.com/76696641/112079575-6c8fb780-8b4e-11eb-9cd1-36d2c069f1c3.png">
+## Questions
 
-<img width="412" alt="Screen Shot 2021-03-22 at 8 35 43 PM" src="https://user-images.githubusercontent.com/76696641/112079628-8204e180-8b4e-11eb-82c5-d002e43b3c66.png">
+If you have any questions you can find me on Github here: (https://github.com/nicoletribo)
+
+For any additional questions plese feel free to email me here: nicoletribo@yahoo.com
+
+## ScreenShots
+
+<img width="1272" alt="Screen Shot 2021-05-17 at 1 11 10 PM" src="https://user-images.githubusercontent.com/76696641/118536740-b4c3f400-b711-11eb-8996-a96d30547458.png">
+
+<img width="1273" alt="Screen Shot 2021-05-17 at 1 12 08 PM" src="https://user-images.githubusercontent.com/76696641/118536807-c7d6c400-b711-11eb-9a1e-9a5debdec994.png">
+
+<img width="1274" alt="Screen Shot 2021-05-17 at 1 12 26 PM" src="https://user-images.githubusercontent.com/76696641/118536865-dc1ac100-b711-11eb-9300-68b1c3a4f5d3.png">
