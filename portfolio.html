@@ -1,98 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
 </head>
-
-<body style="background-color: silver;">
-<!-- Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#" style="color:white;font-weight: bold;border: dotted; border-width: 2px; background-color: teal;">Nicole Tribo</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-        <div class="collapse navbar-collapse" id="navbarNavDropdown" style="background-color: teal;">
-        <ul class="navbar-nav ml-auto">
-
-          <li class="nav-item active">
-            <a class="nav-link" style="color: white; border: solid;" href="index.html">About</a>
-          </li>
-
-          <li class="nav-item" >
-            <a class="nav-link" style="color: white; border: solid;" href="portfolio.html">Portfolio</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" style="color: white; border:solid" href="contact.html">Contact</a>
-          </li>
-        </ul>
+<body>
+    <!-- add navbar here-->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
         </div>
-    </nav>
-   <!-- Portfolio-->
-<div class="row">
-  <!-- Film Finder-->
-  <div class="col-md-3">
-    <div class="card" style="width: 20rem; height: 30rem;">
-      <img src="https://user-images.githubusercontent.com/76696641/112046377-f2ddd680-8b19-11eb-91b0-f99a438bd824.png" class="card-img-top" alt="Calandar Application">
-      <div class="card-body">
-        <h5 class="card-title">Project 1: Film Finder</h5>
-        <p class="card-text"> The user selects a genre, then are given a list of movies fitting that genre specification. The user can then save movies to a “watch list”.</p>
-        <a href="https://GonzalezG97.github.io/project1-film-finder/" class="card-link">Visit the deployed Application</a>
-        <a href="https://github.com/GonzalezG97/project1-film-finder" class="card-link">GitHub Repository</a>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item" href="index.html">
+              About
+            </a>
+            <a class="navbar-item" href="portfolio.html">
+              Portfolio
+            </a>
+            <a class="navbar-item" href="contact.html">
+              Contact
+            </a>
+          </div>
+        </div>
+      </nav>
+      <section id="navbarBasicExample" class="hero is-small">
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <p class="title">
+              Nicole Tribo
+            </p>
+            <p class="subtitle">
+              Projects
+            </p>
+          </div>
+        </div>
+      </section>
+    <!-- add modal cards here-->
+    <section class="container">
+      <div class="columns features">
+          <!-- Film Finder-->
+          <div class="column is-4">
+            <div class="card is-shady">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="https://user-images.githubusercontent.com/76696641/112046377-f2ddd680-8b19-11eb-91b0-f99a438bd824.png" alt="film finder image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <h4>Project 1: Film Finder</h4>
+                  <p>Our first project shows a list of movies based on selected genres: horror, comedy, romance, action, and animated. Once the user selects a genre they are given a list of movies fitting that genre specification. The user will then be able to save movies to a “watch list”</p>
+                  <div class="button is-$blue: hsl(229, 53%, 53%)">
+                    <a href="https://GonzalezG97.github.io/project1-film-finder/">Application</a>
+                  </div>
+                  <div class="button">
+                    <a href="https://github.com/GonzalezG97/project1-film-finder">GitHub Repository</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- Podcast Junkie-->
+        <div class="column is-4">
+          <div class="card is-shady">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://user-images.githubusercontent.com/76696641/118306670-57c90380-b4af-11eb-82de-27d7ac88bc60.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="content">
+                <h4>Project 2: Podcast Junkie</h4>
+                <p>Our second project allows users to search for podcasts by keyword and genre and returns a list of podcasts fitting those results. On the results page the user can view information about the podcast. The user can then choose to add a podcast from that list to a library (“My Stash”). When the user views their Stash they see the list of podcasts that they have saved with a link to listen to the podcast.</p>
+                <div class="button">
+                  <a href="https://podcast-junkie-nlt.herokuapp.com/">Application</a>
+                </div>
+                <div class="button">
+                  <a href="https://github.com/ncerva/PodcastJunkie">GitHub Repository</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <!-- Calendar Application-->
+          <div class="column is-4">
+            <div class="card is-shady">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="https://user-images.githubusercontent.com/76696641/109572093-46787980-7ab2-11eb-92ba-2a5557951f5e.png" alt="password generator image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <h4>HW5: Calendar Application</h4>
+                  <p>My fifth homework assignment was a simple calendar application that allows users to save events for each hour of the day. This was our first assignment utilizing web APIs.</p>
+                  <div class="button">
+                    <a href="http://nicoletribo.github.io/HW5-Calendar-Application-NLT/">Application</a>
+                  </div>
+                  <div class="button">
+                    <a href="https://github.com/nicoletribo/HW5-Calendar-Application-NLT">GitHub Repository</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
-    </div>
-    </div> 
-    <!-- Password Generator-->
-    <div class="col-md-3">
-      <div class="card" style="width: 20rem; height: 30rem;">
-      <img src="https://user-images.githubusercontent.com/76696641/107292851-219f6200-6a30-11eb-8f0d-d46fd172feb0.png" class="card-img-top"  width="260" height="270" alt="Calandar Application">
-      <div class="card-body">
-        <h5 class="card-title">HW 3: Password Generator</h5>
-        <p class="card-text">Creates a random password with selection criteria available for the client to choose from.</p>
-        <a href="http://nicoletribo.github.io/HW3-Password-Generator-NLT/" class="card-link">Visit the deployed Application</a>
-        <a href="https://github.com/nicoletribo/HW3-Password-Generator-NLT" class="card-link">GitHub Repository</a>
+    </section>
+    <section class="container">
+      <div class="columns features">
+        <!-- Weather Application-->
+        <div class="column is-4">
+          <div class="card is-shady">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://user-images.githubusercontent.com/76696641/110419453-f9227c00-805e-11eb-9947-75026fe346a5.png" alt="password generator image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="content">
+                <h4>HW 6: Weather Dashboard</h4>
+                <p>My sixth homework assignment was an application where users can search the weather by city and get a 5 day forecast, using third-party APIs.</p>
+                <div class="button">
+                  <a href="http://nicoletribo.github.io/HW6-Weather-Dashboard-NLT">Application</a>
+                </div>
+                <div class="button">
+                  <a href="https://github.com/nicoletribo/HW6-Weather-Dashboard-NLT">GitHub Repository</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- README Generator-->
+        <div class="column is-4">
+          <div class="card is-shady">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://user-images.githubusercontent.com/76696641/118530001-c30e1200-b709-11eb-83f8-c6a1897199b6.png" alt="team profile image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="content">
+                <h4>HW9: Professional README Generator</h4>
+                <p>For our ninth homework assignment we were tasked to create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
+                </p>
+                <div class="button">
+                  <a href="https://drive.google.com/file/d/1rAf8xt-6c-dfnRPdNOzn0CJMpIKkVHDw/view?usp=sharing">Walk Through</a>
+                </div>
+                <div class="button">
+                  <a href="https://github.com/nicoletribo/HW9-README-Generator-NLT">GitHub Repository</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+          <!-- Team Profile-->
+          <div class="column is-4">
+            <div class="card is-shady">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="https://user-images.githubusercontent.com/76696641/113661270-67149000-966b-11eb-9ca6-ba03c98a8e0b.png" alt="team profile image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <h4>HW10: Team Profile Generator</h4>
+                  <p>My 10th homework assignment was a Node.js command-line application that takes in information about employees, then generates an HTML webpage that displays summaries for each person. We also had to write a unit test for every part of the code and ensure that it passes each test.
+                  </p>
+                  <div class="button">
+                    <a href="https://drive.google.com/file/d/1zNe33QBQBSpdh_cCJSy1_3RRap8fGei6/view">Walk Through</a>
+                  </div>
+                  <div class="button">
+                    <a href="https://github.com/nicoletribo/HW10-Team-Profile-Generator-NLT">GitHub Repository</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
-    </div>
-    </div> 
-  <!-- Calendar Application-->
-   <div class="col-md-3">
-   <div class="card" style="width: 20rem; height: 30rem;">
-    <img src="https://user-images.githubusercontent.com/76696641/109572093-46787980-7ab2-11eb-92ba-2a5557951f5e.png" class="card-img-top" alt="Calandar Application">
-    <div class="card-body">
-      <h5 class="card-title">HW5: Calendar Application</h5>
-      <p class="card-text">A simple calendar application that allows a user to save events for each hour of the day by modifying starter code.</p>
-      <a href="http://nicoletribo.github.io/HW5-Calendar-Application-NLT/" class="card-link">Visit the deployed Application</a>
-      <a href="https://github.com/nicoletribo/HW5-Calendar-Application-NLT" class="card-link">GitHub Repository</a>
-    </div>
-  </div>
-  </div> 
-  <!-- Weather Application-->
-  <div class="col-md-3">
-  <div class="card" style="width: 20rem; height: 30rem;">
-    <img src="https://user-images.githubusercontent.com/76696641/110419453-f9227c00-805e-11eb-9947-75026fe346a5.png" class="card-img-top" alt="Calandar Application">
-    <div class="card-body">
-      <h5 class="card-title">HW 6: Weather Dashboard</h5>
-      <p class="card-text">Users can search the weather by city and get a 5 day forecast.</p>
-      <a href="http://nicoletribo.github.io/HW6-Weather-Dashboard-NLT" class="card-link">Visit the deployed Application</a>
-      <a href="https://github.com/nicoletribo/HW6-Weather-Dashboard-NLT" class="card-link">GitHub Repository</a>
-    </div>
-  </div>
-  </div>    
-</div>
-<div class="row">
-  <div class="card mb-3">
-    <img src="https://dvqlxo2m2q99q.cloudfront.net/000_clients/271455/page/2714550awqGUfR.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">More Work Coming Soon!</h5>
-      <p class="card-text">As I continue to grow as a software developer, more projects will be added here.</p>
-      <a href="https://github.com/nicoletribo" class="card-link">Visit my GitHub Profile Here</a>
-    </div>
-  </div>
-  </div>
+    </section>
+    <section class="container">
+      <div class="columns features">
+        <!-- Note Taker-->
+        <div class="column is-4">
+          <div class="card is-shady">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://user-images.githubusercontent.com/76696641/114490663-da258580-9bda-11eb-81bc-d3716c508256.png" alt="note taker image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="content">
+                <h4>HW11: Note Taker</h4>
+                <p>My 11th homework assignment was an application that can be used to write and save notes. This application uses an Express.js back end and saves and retrieves note data from a JSON file</p>
+                <div class="button">
+                  <a href="https://hw11-note-taker-nlt.herokuapp.com/">Application</a>
+                </div>
+                <div class="button">
+                  <a href="https://github.com/nicoletribo/HW11-Note-Taker-NLT">GitHub Repository</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         <!-- Employee Tracker-->
+         <div class="column is-4">
+          <div class="card is-shady">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://user-images.githubusercontent.com/76696641/118523884-33656500-b703-11eb-8de5-77d6e735d1e5.png" alt="note taker image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="content">
+                <h4>HW12: Employee Tracker</h4>
+                <p>My 12th homework assignment was a command-line application using MYSQL and Inquirer that allows users to add and view departments, roles, employees, and update employee roles</p>
+                <div class="button">
+                  <a href="https://drive.google.com/file/d/1qT_--z64QgaOzimIWKfuKNoV2bvFrmFR/view">Walk Through</a>
+                </div>
+                <div class="button">
+                  <a href="https://github.com/nicoletribo/HW12-Employee-Tracker-NLT">GitHub Repository</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- More Work-->
+        <div class="column is-4">
+          <div class="card is-shady">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://user-images.githubusercontent.com/76696641/118530769-a45c4b00-b70a-11eb-889a-611d36327c05.png" alt="note taker image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="content">
+                <h4>More Work Coming Soon!</h4>
+                <p>As I continue to grow as a software developer, more projects will be added here.</p>
+                <div class="button">
+                  <a href="https://github.com/nicoletribo">Visit my GitHub Profile Here</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
